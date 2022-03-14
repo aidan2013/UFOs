@@ -24,7 +24,7 @@ function buildTable(data) {
 }
 
 // 1. Create a variable to keep track of all the filters as an object.
-var filters{};
+var filters ={};
 
 // 3. Use this function to update the filters. 
 function updateFilters() {
@@ -46,7 +46,7 @@ function updateFilters() {
   else {
     delete filters[filterId];
   }
-    updateTable()
+    //updateTable();
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
   }
